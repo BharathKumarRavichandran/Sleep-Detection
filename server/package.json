@@ -1,0 +1,42 @@
+{
+  "name": "sleep-detection-server",
+  "version": "1.0.0",
+  "description": "Server for Sleep Detection project done for Computer Architecture and Organisation project which detects whether a person is sleeping or not while driving using Eye blinking sensor.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BharathKumarRavichandran/Sleep-Detection.git"
+  },
+  "keywords": [
+    "sleep",
+    "detection",
+    "eye",
+    "blinking",
+    "msp430"
+  ],
+  "author": "BharathKumarRavichandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BharathKumarRavichandran/Sleep-Detection/issues"
+  },
+  "homepage": "https://github.com/BharathKumarRavichandran/Sleep-Detection#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "http-status-codes": "^1.4.0",
+    "morgan": "^1.9.1",
+    "signale": "^1.4.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
