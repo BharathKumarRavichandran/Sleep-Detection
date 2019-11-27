@@ -15,12 +15,12 @@ exports.sendAlertEmail = async (toEmail) => {
         const message = {
             from: config.email.SITE_NOREPLY_EMAIL,
             to: toEmail,
-            subject: 'Alert - Sleep Detection',
+            subject: 'Alert - Sleep Detection CAO Project',
             html: `
                 <div>
                     <div>Hello,</div>
                     <br/>
-                    <div><b>EMERGENCY ALERT:</b> Someone is sleeping while driving.</div>
+                    <div><b>EMERGENCY ALERT: </b>The driver is sleeping.</div>
                     <br/>
                     <div>Regards,</div>
                     <div>Team Sleep Detector</div>

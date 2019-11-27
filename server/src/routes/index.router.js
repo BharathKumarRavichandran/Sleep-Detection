@@ -4,6 +4,6 @@ const router = require('express').Router();
 const indexController = require('../controllers/index.controller');
 
 // Defining routes
-router.post('/alert', indexController.sendAlertEmail);
+router.all('/alert', indexController.sendAlertEmail);
 
 module.exports = router;
